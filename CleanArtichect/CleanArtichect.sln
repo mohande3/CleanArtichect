@@ -3,9 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[ DOMAIN ]", "[ DOMAIN ]", "{8FBC7568-00C4-4330-87FB-B74978D5D00F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[ PRESENTATION ]", "[ PRESENTATION ]", "{BBF7E716-AB1B-4161-8B9A-5ADFB2F36C86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[ DATA ]", "[ DATA ]", "{532A1034-F8C7-4325-8BAF-231F9BEA8E36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[ APPLICATION ]", "[ APPLICATION ]", "{BFEA80DA-5DD5-4FF7-A01E-010FD1DF60E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[ IOC ]", "[ IOC ]", "{B1A3FABB-FBEB-4724-9B1E-24AD0BEF6459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcCore", "MvcCore\MvcCore.csproj", "{3CE18ADE-A013-419E-B513-0268542AC467}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CE18ADE-A013-419E-B513-0268542AC467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE18ADE-A013-419E-B513-0268542AC467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE18ADE-A013-419E-B513-0268542AC467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE18ADE-A013-419E-B513-0268542AC467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CE18ADE-A013-419E-B513-0268542AC467} = {BBF7E716-AB1B-4161-8B9A-5ADFB2F36C86}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {92AD51A4-D1F3-4630-BE3D-B5B81F1267EC}
